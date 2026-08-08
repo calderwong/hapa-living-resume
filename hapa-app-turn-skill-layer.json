@@ -1,0 +1,33 @@
+{
+  "name": "Hapa App Turn, Skill, and Capability Layer",
+  "version": "2.0.0",
+  "updated": "2026-08-08",
+  "source": "Local Hapa Second Brain SQLite snapshot",
+  "scope": "A public-safe retrospective projection; raw turns and private text remain in Second Brain.",
+  "method": {
+    "reconciledAssociationTurns": "Distinct turns matched through canonical app names, documented aliases, repository-style names, and associated thread titles. The count is a de-duplicated union, not a sum of channels.",
+    "directMentionTurns": "Subset whose stored turn fields directly name the canonical app or a close display-name variant.",
+    "minedSkills": "Leading Second Brain turn-skill clusters attached to the reconciled turn set, ranked by distinct supporting turns."
+  },
+  "interpretation": "Association counts include implementation, planning, troubleshooting, review, reuse, and maintenance. They are not hours, provider billing tokens, implementation-only turns, production usage, or maturity scores. Alias coverage is intentionally shown so the projection can be audited and improved.",
+  "entries": [
+    {"app":"CardAppPrototype","directMentionTurns":23,"reconciledAssociationTurns":23,"aliases":["CardAppPrototype","card app prototype"],"minedSkills":["Decision Intelligence / Tradeoff Analysis","Product Strategy / Requirements Writing","Technical Writing / Documentation"],"sourceCoverage":"canonical + display-name"},
+    {"app":"Hapa Dev Proto","directMentionTurns":139,"reconciledAssociationTurns":1167,"aliases":["Hapa Dev Proto","hapa-dev-proto"],"minedSkills":["API Contract / Payload Design","Knowledge Graph Modeling","Design"],"sourceCoverage":"canonical + repository-style name + thread-title association"},
+    {"app":"Hapa Telemetry","directMentionTurns":39,"reconciledAssociationTurns":133,"aliases":["Hapa Telemetry","hapa-telemetry-node"],"minedSkills":["Local Runtime / DevOps","Design System / Operator UX","Browser QA / Screenshot Verification"],"sourceCoverage":"canonical + repository-style name + thread-title association"},
+    {"app":"Hapa Second Brain","directMentionTurns":455,"reconciledAssociationTurns":1591,"aliases":["Hapa Second Brain","hapa_second_brain","Second Brain"],"minedSkills":["Technical Architecture","Design","Design System / Operator UX"],"sourceCoverage":"canonical + storage alias + thread-title association"},
+    {"app":"Hapa Catalog","directMentionTurns":18,"reconciledAssociationTurns":481,"aliases":["Hapa Catalog","hapaCatalog",".hapaCatalog"],"minedSkills":["Design","Product","Technical Architecture"],"sourceCoverage":"canonical + catalog alias + thread-title association"},
+    {"app":"Hapa Avatar Builder","directMentionTurns":2363,"reconciledAssociationTurns":2739,"aliases":["Hapa Avatar Builder","hapa-avatar-builder"],"minedSkills":["Music Media","Design","Code Debugging"],"sourceCoverage":"canonical + repository-style name + thread-title association"},
+    {"app":"Hapa Overcard","directMentionTurns":5,"reconciledAssociationTurns":44,"aliases":["Hapa Overcard","hapa-overcard"],"minedSkills":["Code Debugging","Design System / Operator UX","Local Runtime / DevOps"],"sourceCoverage":"canonical + repository-style name + thread-title association"},
+    {"app":"Hapa Overwind","directMentionTurns":34,"reconciledAssociationTurns":117,"aliases":["Hapa Overwind","hapa-overwind-node"],"minedSkills":["Technical Architecture","API Contract / Payload Design","Local Runtime / DevOps"],"sourceCoverage":"canonical + repository-style name + thread-title association"},
+    {"app":"Hapa Quest Keeper","directMentionTurns":7,"reconciledAssociationTurns":104,"aliases":["Hapa Quest Keeper","hapa-quest-keeper"],"minedSkills":["Technical Architecture","Design","Hapa Ecosystem Architecture"],"sourceCoverage":"canonical + repository-style name + thread-title association"},
+    {"app":"Hapa Red Team","directMentionTurns":27,"reconciledAssociationTurns":40,"aliases":["Hapa Red Team","hapa-red-team"],"minedSkills":["Design","Hapa Ecosystem Architecture","Responsive UI / Information Density"],"sourceCoverage":"canonical + repository-style name + thread-title association"},
+    {"app":"Hapa Wisdom Studio","directMentionTurns":136,"reconciledAssociationTurns":207,"aliases":["Hapa Wisdom Studio","hapa-wisdom-studio"],"minedSkills":["Creative Writing","Technical Architecture","Code Debugging"],"sourceCoverage":"canonical + repository-style name + thread-title association"},
+    {"app":"Hapa Language","directMentionTurns":514,"reconciledAssociationTurns":528,"aliases":["Hapa Language","hapaairtranslate","Hapa Air Translate"],"minedSkills":["Technical Architecture","Code Debugging","Hapa Ecosystem Architecture"],"sourceCoverage":"canonical + app alias + thread-title association"},
+    {"app":"NeonBlade Design System","directMentionTurns":258,"reconciledAssociationTurns":264,"aliases":["NeonBlade","Neon Blade"],"minedSkills":["Design System / Operator UX","Frontend Dashboard Composition","Browser QA / Screenshot Verification"],"sourceCoverage":"canonical + spaced alias + thread-title association"},
+    {"app":"Black Horizon Fleet","directMentionTurns":169,"reconciledAssociationTurns":253,"aliases":["Black Horizon","Hapa Space"],"minedSkills":["Hapa Wiki Curation","Technical Writing / Documentation","Design System / Operator UX"],"sourceCoverage":"canonical + world alias + thread-title association"},
+    {"app":"Sailing Duel","directMentionTurns":0,"reconciledAssociationTurns":0,"aliases":["Sailing Duel","sailing-duel","Spanish galleon"],"minedSkills":[],"sourceCoverage":"No matching text or linked lineage in this snapshot; import or map the project history before asserting a count."},
+    {"app":"Hapa Scroll Site","directMentionTurns":203,"reconciledAssociationTurns":681,"aliases":["Hapa Scroll Site","scroll site","scroll-site"],"minedSkills":["Research","Music Media","Design"],"sourceCoverage":"canonical + skill/repository-style name + thread-title association"},
+    {"app":"Hapa Character Sheet","directMentionTurns":66,"reconciledAssociationTurns":300,"aliases":["Hapa Character Sheet","character sheet"],"minedSkills":["Design System / Operator UX","Technical Architecture","Hapa Ecosystem Architecture"],"sourceCoverage":"canonical + display-name alias + thread-title association"},
+    {"app":"Living Resume + Build Journal","directMentionTurns":1,"reconciledAssociationTurns":1,"aliases":["Living Resume","Calder Wong Living Resume"],"minedSkills":["Design System / Operator UX","Frontend Dashboard Composition"],"sourceCoverage":"The stored snapshot predates most current work; run a future import and lineage refresh before representing its current turn volume."}
+  ]
+}

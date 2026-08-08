@@ -1,0 +1,29 @@
+{
+  "id": "cardapp-prototype-2025",
+  "title": "CardAppPrototype: from product brief to a one-day demonstrable build",
+  "claimClass": "prototype",
+  "builtAt": "2025-04-10",
+  "published": "2026-08-08",
+  "summary": "A React/Vite card-management prototype built as a compressed product, design, and development exercise. It demonstrates a multi-card dashboard, card details, mock transactions, payment and rewards flows, security-control UI, and responsive views without representing a bank-integrated production system.",
+  "whyItWasBuilt": "To test how quickly a realistic card-management experience could move from research, product requirements, and design intent into a demonstrable interface using modern frontend tooling and AI-assisted development.",
+  "scope": {
+    "included": ["credit, debit, and virtual-card views", "dashboard and card-detail flows", "transaction views and budgeting visualizations", "payment, rewards, travel-notice, and security-control interactions", "responsive browser and mobile presentation", "mock data and a later local UI/API/CLI parity surface"],
+    "intentionallyUnresolved": ["production banking integrations", "real authentication or payment execution", "live customer data", "regulated security certification", "backend and database implementation for the original front-end PRD"]
+  },
+  "architectInterview": [
+    {"question": "What did this prove?", "answer": "A coherent financial-management product surface can be made concrete quickly when product research, a PRD, visual design, component structure, mock data, and iterative testing are kept in one tight loop."},
+    {"question": "What was learned?", "answer": "Responsive states, data contracts, component boundaries, and documentation need to evolve together. The original journal also records the value of explicit reference documentation, real UI validation, and writing development history while the decisions are still legible."},
+    {"question": "What is still useful?", "answer": "The product framing, role-aware card data model, componentized finance UI patterns, responsive layouts, mock-data scaffolding, reference-docs surface, and development-journal habit remain reusable starting points."},
+    {"question": "What would improve it now?", "answer": "Start with explicit source-of-truth and security boundaries, connect real but properly authorized service contracts only where needed, add outcome-oriented tests and accessibility checks, preserve decision lineage, and promote reusable patterns into Hapa Cards or skills rather than leaving them isolated in the app."}
+  ],
+  "validation": {
+    "sources": [
+      {"label": "Project README", "evidence": "Documents the one-day build goal, feature set, mock-data boundary, stack, and AI-assisted development tools."},
+      {"label": "Product requirements document", "evidence": "Defines the user needs, front-end scope, data-flow assumptions, and intentionally hypothetical backend boundary."},
+      {"label": "Development journals", "evidence": "Record implementation iterations, responsive refinements, transaction-detail work, reference-docs work, and process reflections."},
+      {"label": "Source repository and live demo", "evidence": "Provide inspectable code and a public prototype surface."}
+    ],
+    "boundary": "This is a prototype case study. It is not evidence of deployed financial infrastructure, live banking data, production security controls, or customer outcomes."
+  },
+  "futureRetrieval": ["Review the original PRD before reusing the finance workflow patterns.", "Check the current repository state before relying on any runtime claim.", "Extract reusable card, transaction, and responsive-layout patterns into the appropriate Hapa skill or Card only after validating their current relevance.", "Ask whether the next use case requires actual banking integrations, and treat that as a new authorized architecture problem rather than an implicit extension of this prototype."]
+}

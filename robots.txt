@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace this planned URL only after the release is published at the same canonical path.
+Sitemap: https://calderwong.github.io/hapa-node-atlas/living-resume/sitemap.xml

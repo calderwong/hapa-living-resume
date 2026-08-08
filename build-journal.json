@@ -1,0 +1,34 @@
+{
+  "name": "Hapa Build Journal",
+  "version": "1.0.0",
+  "updated": "2026-08-08",
+  "purpose": "A public-safe, searchable interview format for revisiting Hapa builds: why they were made, what was learned, what remains reusable, what needs improvement, and what evidence validates the account.",
+  "interviewFormat": {
+    "roles": {"interviewer": "agent or human reviewer", "architect": "Calder or another accountable builder"},
+    "questions": [
+      "What concrete user, workflow, or systems problem made this build worth attempting at that time?",
+      "What was intentionally in scope, and what did the prototype deliberately leave unresolved?",
+      "What did the team learn from building, testing, or documenting it?",
+      "Which components, patterns, cards, contracts, or decisions are still reusable now?",
+      "What would you change with current Hapa capabilities, better evidence, or more time?",
+      "Which sources validate this account, and what is the correct production/prototype/derived claim class?",
+      "What should a future agent retrieve or check before extending this work?"
+    ],
+    "recordRule": "Store source links, answers, claim class, reusable outputs, improvement prompts, and a public-safe change summary. Do not expose private transcripts, credentials, sensitive customer data, or unverified claims."
+  },
+  "entries": [
+    {
+      "id": "cardapp-prototype-2025",
+      "title": "CardAppPrototype: a one-day AI-assisted card-management build",
+      "published": "2026-08-08",
+      "builtAt": "2025-04-10",
+      "claimClass": "prototype",
+      "tags": ["AI-assisted development", "digital banking", "card management", "fintech UX", "React", "Vite", "responsive design", "product requirements", "development journal"],
+      "sourceLinks": [
+        {"label": "Live prototype", "href": "https://calderwong.github.io/CardAppPrototype/"},
+        {"label": "Source repository", "href": "https://github.com/calderwong/CardAppPrototype"}
+      ],
+      "entryResource": "./journal-cardapp-prototype.json"
+    }
+  ]
+}

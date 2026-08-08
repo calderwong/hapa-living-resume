@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-08-08",
+  "purpose": "A concise map of high-leverage Hapa foundation nodes. Each node is described as a reusable prototype or design foundation; consult its owning repository for current runtime and maturity state.",
+  "nodes": [
+    {"id":"second-brain","name":"Hapa Second Brain","role":"Private memory, source-aware retrieval, turn mining, provenance, and durable context packets.","foundation":"context and evidence"},
+    {"id":"overcard","name":"Hapa Overcard","role":"Shared card schemas and host contracts for typed, revisioned, auditable working state.","foundation":"reusable capability contracts"},
+    {"id":"telemetry","name":"Hapa Telemetry","role":"Node discovery, health, capability polling, dependency awareness, and operator visibility.","foundation":"situational awareness"},
+    {"id":"overwind","name":"Hapa Overwind","role":"Append-only history with rebuildable search and serving projections.","foundation":"event history and lineage"},
+    {"id":"quest-keeper","name":"Hapa Quest Keeper","role":"Cross-project board coverage, task history, evidence linkage, and delivery coordination.","foundation":"work orchestration"},
+    {"id":"red-team","name":"Hapa Red Team","role":"Scoped observation, findings, verification, repair memory, and explicit authority boundaries.","foundation":"governance and safety"},
+    {"id":"neonblade","name":"Hapa Neoblade / NeonBlade Operator","role":"Canonical Design Guild system: tokens, Hapa Cards, operator panels, controls, graph treatments, semantic motion, accessibility rules, and formal UI audits.","foundation":"visual system and operator interaction","owner":"Design Guild","status":"canonical design standard v1.3"},
+    {"id":"scroll-site","name":"Hapa Scroll Site","role":"A source-aware cinematic explainer that turns verified clips, continuity evidence, and progressive Hapa Cards into an accessible scroll journey with static crawlable copy.","foundation":"human discovery and narrative explanation","source":"https://calderwong.github.io/hapa-scroll-site/","status":"published prototype; inspect the source and story disclosures for clip and integration boundaries"},
+    {"id":"character-sheet","name":"Hapa Character Sheet","role":"A presentation and curation node that turns Second Brain evidence into a public resume, Skill Codex, Proof Map, timeline, portfolio, and redaction-safe agent dossier.","foundation":"capability projection and evidence navigation","source":"https://calderwong.github.io/hapa-node-atlas/nodes/character-sheet/index.html#presentation","status":"public-safe dated projection; derived metrics are not employer ratings or current production metrics"}
+  ],
+  "connectionPattern": "Second Brain supplies source-aware context; Overcard supplies the reusable record contract; Telemetry and Overwind expose operating state and history; Quest Keeper coordinates work; Red Team governs authority; NeonBlade gives these shared truth surfaces a consistent, accessible operator interface."
+}

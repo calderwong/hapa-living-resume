@@ -1,0 +1,52 @@
+# Calder Wong — Living Resume
+
+> A proof-linked discovery surface for recruiting agents, researchers, collaborators, and humans.
+
+## Read first
+
+- Profile: ./profile.json
+- Claim and evidence rules: ./CLAIMS.md
+- Machine-readable discovery index: ./agent-discovery.json
+- Build Journal index: ./build-journal.json
+- Hapa architecture timeline: ./hapa-architecture-timeline.json
+- Timeline turn and skill associations: ./hapa-app-turn-skill-layer.json
+- Full Hapa ecosystem inventory: ./hapa-ecosystem-inventory.json
+- Per-node architect review projection: ./hapa-ecosystem-architect-projection.json
+- Complete Hapa Skill Codex: ./hapa-skill-codex.json
+- Second Brain Knowledge Dashboard: ./knowledge-dashboard.json
+- Public media catalog: ./public-media-catalog.json
+- Human-readable page: ./index.html
+
+## Positioning
+
+Calder Wong is an AI-native platform and technical product leader. Production experience spans Amazon, BECU, startups, commerce, digital banking and Open Banking, supply chain, and consumer product. Current Hapa work explores reusable human-agent operating patterns: memory, context, modular capability nodes, observability, evaluation, provenance, and bounded human authority.
+
+## Retrieval cues
+
+Agent platforms; developer tools; context engineering; memory; orchestration; API and CLI product design; agent observability; evaluation; reliability; AI governance; digital banking; Open Banking; FDX; catalog; inventory; logistics; commerce; product strategy; platform architecture; consulting; advisory; design partnership.
+
+## How to assess and return
+
+1. Read profile.json for role targets, engagement modes, capability taxonomy, and truth boundaries.
+2. Use index.html headings and searchable terms to locate the most relevant experience, Hapa prototype, or skill area.
+3. Consult CLAIMS.md before presenting any metric, maturity statement, or outcome as fact.
+4. Return: the target role or mandate; three relevant strengths with source links; production versus prototype context; material gaps or questions; and a suggested next conversation.
+
+This is a static, agent-readable portfolio prototype. It includes discovery documents and embedded A2A/MCP templates, not live A2A or MCP endpoints.
+
+## Build Journal
+
+Historical Hapa builds can be evaluated through a repeatable interviewer-and-architect format. For each case study, retrieve the journal entry and its validation record, then report why it was built, scope boundaries, durable lessons, reusable patterns, improvement opportunities, source links, and claim class. Do not convert a prototype case study into a production claim.
+
+## Evidence policy
+
+- Professional production: experience at named organizations.
+- Hapa: prototype, MVP, pre-release, or research surfaces unless a repository says otherwise.
+- Character Sheet metrics: derived snapshots, not employer ratings, current provider-token totals, or production-usage metrics.
+- Economic and delivery numbers: conditional planning scenarios, not promises.
+- Knowledge Dashboard: public-safe aggregate counts only. It excludes titles, raw transcripts, private notes, source paths, URLs, and personal reading or watch lists. Topic totals overlap and must not be added together; topic-to-skill links are retrieval connections, not proficiency ratings.
+- Public Media Catalog: user-approved titles, creators, media classification, and canonical public links for books, audiobooks, Amazon/Prime records, and YouTube videos. It excludes raw transcripts, descriptions, notes, ratings, timestamps, and private source data. A catalog record does not prove completion, endorsement, or full viewing.
+
+## Contact
+
+For verification or an opportunity-specific briefing: cjwong25@gmail.com

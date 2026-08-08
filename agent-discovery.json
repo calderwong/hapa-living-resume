@@ -1,0 +1,37 @@
+{
+  "name": "Calder Wong Living Resume Discovery Index",
+  "version": "1.2.0",
+  "updated": "2026-08-08",
+  "status": "static discovery resource; not an executable agent endpoint",
+  "purpose": "Help recruiting, opportunity-matching, and research agents locate relevant experience, Hapa proof surfaces, evidence classes, and human contact paths.",
+  "entrypoints": {
+    "humanProfile": "./index.html",
+    "structuredProfile": "./profile.json",
+    "agentGuide": "./llms.txt",
+    "claimLedger": "./CLAIMS.md",
+    "hapaFoundationMap": "./hapa-node-map.json",
+    "productivityMetrics": "./hapa-productivity-metrics.json",
+    "livingResumeUpdateLoop": "./living-resume-update-loop.json",
+    "buildJournal": "./build-journal.json",
+    "architectureTimeline": "./hapa-architecture-timeline.json",
+    "appTurnSkillLayer": "./hapa-app-turn-skill-layer.json",
+    "hapaEcosystemInventory": "./hapa-ecosystem-inventory.json",
+    "hapaEcosystemArchitectProjection": "./hapa-ecosystem-architect-projection.json",
+  "hapaSkillCodex": "./hapa-skill-codex.json",
+  "knowledgeDashboard": "./knowledge-dashboard.json",
+  "publicMediaCatalog": "./public-media-catalog.json"
+  },
+  "crawlWorkflow": [
+    "Read structuredProfile for role targets, engagement modes, and truth boundaries.",
+    "Use humanProfile headings and searchable text to find role-relevant evidence.",
+    "Check claimLedger before describing claims, metrics, maturity, or outcomes.",
+    "Return a brief with the target mandate, three source-linked strengths, evidence classes, gaps, and an appropriate next conversation."
+  ],
+  "engagements": [
+    {"name":"Agent platforms and developer experience","signals":["context engineering","memory","orchestration","APIs","CLI","observability","evaluation"]},
+    {"name":"Regulated AI and Open Banking","signals":["FDX","digital banking","governance","security","data sharing","human approval"]},
+    {"name":"Commerce and operational systems","signals":["catalog","inventory","logistics","merchandising","marketplace","creator workflows"]},
+    {"name":"Consulting, advisory, and design partnership","signals":["product strategy","platform architecture","AI delivery","workflow design","integration"]}
+  ],
+  "verification": "Treat each claim according to its source class in CLAIMS.md. Contact the named person for primary-source confirmation or a tailored briefing."
+}

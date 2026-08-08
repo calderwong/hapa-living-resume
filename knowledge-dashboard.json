@@ -1,0 +1,449 @@
+{
+  "version": "1.0.0",
+  "generatedAt": "2026-08-08T19:11:47.432305+00:00",
+  "title": "Second Brain Knowledge Dashboard",
+  "boundary": "Public-safe aggregate projection. It excludes titles, raw transcripts, private notes, source paths, URLs, and personal watch or reading lists.",
+  "wordCountMethod": "Topic totals are whitespace-token estimates over stored Second Brain text. Media totals use explicit category models: 150 spoken words/minute, 250 silent-reading words/minute, and stated Prime runtime defaults. These are comparative estimates, not verified time spent or title-level word counts. Topics overlap, so topic totals must not be added together.",
+  "totals": {
+    "items": 25809,
+    "modeledWords": 280377176,
+    "modeledMinutes": 1415578,
+    "transcriptItems": 9798
+  },
+  "media": [
+    {
+      "label": "Books",
+      "items": 1238,
+      "words": 170101200,
+      "minutes": 680405,
+      "note": "Modeled from the audiobook catalog mean: 916 reported minutes per title \u00d7 150 spoken words/minute, then 250 reading words/minute. Page metadata is not populated."
+    },
+    {
+      "label": "Audiobooks",
+      "items": 230,
+      "words": 31587150,
+      "minutes": 210581,
+      "note": "Reported catalog duration \u00d7 150 spoken words/minute. Duration fields may say remaining time, so this is a modeled content volume\u2014not confirmed listening time."
+    },
+    {
+      "label": "Amazon / Prime watch history",
+      "items": 2084,
+      "words": 32479500,
+      "minutes": 216530,
+      "note": "Modeled by record type: movie 110m, movie/show 100m, episode-or-season 45m, TV show 360m; converted at 150 spoken words/minute. No title-level runtimes are indexed."
+    },
+    {
+      "label": "YouTube videos and transcripts",
+      "items": 22257,
+      "words": 46209326,
+      "minutes": 308062,
+      "note": "Stored transcript word estimate \u00f7 150 spoken words/minute. Raw transcripts remain private and are not displayed."
+    },
+    {
+      "label": "IMDb watch list",
+      "items": 0,
+      "words": 0,
+      "minutes": 0,
+      "note": "No IMDb-specific import is currently indexed."
+    }
+  ],
+  "topics": [
+    {
+      "label": "geopolitics",
+      "items": 18689,
+      "words": 115055075,
+      "skills": [
+        {
+          "label": "Media Pipeline / Video Production",
+          "sharedItems": 8414,
+          "evidenceCount": 15915
+        },
+        {
+          "label": "Asset / Attachment Management",
+          "sharedItems": 8040,
+          "evidenceCount": 12270
+        },
+        {
+          "label": "Hapa Wiki Curation",
+          "sharedItems": 7434,
+          "evidenceCount": 14600
+        }
+      ]
+    },
+    {
+      "label": "artificial intelligence",
+      "items": 34432,
+      "words": 82985792,
+      "skills": [
+        {
+          "label": "Media Pipeline / Video Production",
+          "sharedItems": 20020,
+          "evidenceCount": 37815
+        },
+        {
+          "label": "Hapa Wiki Curation",
+          "sharedItems": 21379,
+          "evidenceCount": 41413
+        },
+        {
+          "label": "Asset / Attachment Management",
+          "sharedItems": 20682,
+          "evidenceCount": 26334
+        }
+      ]
+    },
+    {
+      "label": "design and aesthetics",
+      "items": 41481,
+      "words": 80498280,
+      "skills": [
+        {
+          "label": "Hapa Wiki Curation",
+          "sharedItems": 28764,
+          "evidenceCount": 55690
+        },
+        {
+          "label": "Worldbuilding / Lore Taxonomy",
+          "sharedItems": 26995,
+          "evidenceCount": 48182
+        },
+        {
+          "label": "Asset / Attachment Management",
+          "sharedItems": 26881,
+          "evidenceCount": 37841
+        }
+      ]
+    },
+    {
+      "label": "media pipelines",
+      "items": 50882,
+      "words": 74889890,
+      "skills": [
+        {
+          "label": "Media Pipeline / Video Production",
+          "sharedItems": 43237,
+          "evidenceCount": 80643
+        },
+        {
+          "label": "Asset / Attachment Management",
+          "sharedItems": 40875,
+          "evidenceCount": 54866
+        },
+        {
+          "label": "Transcript Analysis / Source Distillation",
+          "sharedItems": 36208,
+          "evidenceCount": 71949
+        }
+      ]
+    },
+    {
+      "label": "software engineering",
+      "items": 23745,
+      "words": 63642907,
+      "skills": [
+        {
+          "label": "Media Pipeline / Video Production",
+          "sharedItems": 15297,
+          "evidenceCount": 29483
+        },
+        {
+          "label": "Hapa Wiki Curation",
+          "sharedItems": 15208,
+          "evidenceCount": 30193
+        },
+        {
+          "label": "Transcript Analysis / Source Distillation",
+          "sharedItems": 14391,
+          "evidenceCount": 28404
+        }
+      ]
+    },
+    {
+      "label": "history and civilization",
+      "items": 16992,
+      "words": 50558007,
+      "skills": [
+        {
+          "label": "Media Pipeline / Video Production",
+          "sharedItems": 10231,
+          "evidenceCount": 19373
+        },
+        {
+          "label": "Hapa Wiki Curation",
+          "sharedItems": 10126,
+          "evidenceCount": 19889
+        },
+        {
+          "label": "Semantic Enrichment / Metadata Mining",
+          "sharedItems": 10274,
+          "evidenceCount": 18484
+        }
+      ]
+    },
+    {
+      "label": "knowledge systems",
+      "items": 21263,
+      "words": 48451676,
+      "skills": [
+        {
+          "label": "Hapa Wiki Curation",
+          "sharedItems": 14773,
+          "evidenceCount": 26103
+        },
+        {
+          "label": "Worldbuilding / Lore Taxonomy",
+          "sharedItems": 13861,
+          "evidenceCount": 21862
+        },
+        {
+          "label": "Multi-Platform Export Parsing",
+          "sharedItems": 12633,
+          "evidenceCount": 18460
+        }
+      ]
+    },
+    {
+      "label": "hapa and worldbuilding",
+      "items": 32568,
+      "words": 44093075,
+      "skills": [
+        {
+          "label": "Worldbuilding / Lore Taxonomy",
+          "sharedItems": 30391,
+          "evidenceCount": 52643
+        },
+        {
+          "label": "Hapa Wiki Curation",
+          "sharedItems": 27740,
+          "evidenceCount": 51869
+        },
+        {
+          "label": "Asset / Attachment Management",
+          "sharedItems": 26044,
+          "evidenceCount": 38131
+        }
+      ]
+    },
+    {
+      "label": "games and simulation",
+      "items": 9617,
+      "words": 44084471,
+      "skills": [
+        {
+          "label": "Game / Simulation Systems",
+          "sharedItems": 3753,
+          "evidenceCount": 5948
+        },
+        {
+          "label": "Narrative Systems / Game Mechanics",
+          "sharedItems": 3198,
+          "evidenceCount": 3801
+        },
+        {
+          "label": "Media Pipeline / Video Production",
+          "sharedItems": 2776,
+          "evidenceCount": 4830
+        }
+      ]
+    },
+    {
+      "label": "science fiction",
+      "items": 8732,
+      "words": 41340618,
+      "skills": [
+        {
+          "label": "Media Pipeline / Video Production",
+          "sharedItems": 1985,
+          "evidenceCount": 3345
+        },
+        {
+          "label": "Hapa Wiki Curation",
+          "sharedItems": 1859,
+          "evidenceCount": 3600
+        },
+        {
+          "label": "AI Conversation Mining",
+          "sharedItems": 0,
+          "evidenceCount": 1485
+        }
+      ]
+    },
+    {
+      "label": "health and body",
+      "items": 7521,
+      "words": 40717853,
+      "skills": [
+        {
+          "label": "Local Runtime / DevOps",
+          "sharedItems": 0,
+          "evidenceCount": 1050
+        },
+        {
+          "label": "API Contract / Payload Design",
+          "sharedItems": 0,
+          "evidenceCount": 964
+        },
+        {
+          "label": "Hapa Ecosystem Architecture",
+          "sharedItems": 0,
+          "evidenceCount": 927
+        }
+      ]
+    },
+    {
+      "label": "business and startups",
+      "items": 7464,
+      "words": 38746510,
+      "skills": [
+        {
+          "label": "Agent Orchestration",
+          "sharedItems": 0,
+          "evidenceCount": 1035
+        },
+        {
+          "label": "Local Runtime / DevOps",
+          "sharedItems": 0,
+          "evidenceCount": 984
+        },
+        {
+          "label": "API Contract / Payload Design",
+          "sharedItems": 0,
+          "evidenceCount": 960
+        }
+      ]
+    },
+    {
+      "label": "music and performance",
+      "items": 10708,
+      "words": 38370963,
+      "skills": [
+        {
+          "label": "Music Generation / Stem Workflow",
+          "sharedItems": 4579,
+          "evidenceCount": 7003
+        },
+        {
+          "label": "SQLite Performance / Index Tuning",
+          "sharedItems": 3381,
+          "evidenceCount": 3911
+        },
+        {
+          "label": "Media Pipeline / Video Production",
+          "sharedItems": 3320,
+          "evidenceCount": 5558
+        }
+      ]
+    },
+    {
+      "label": "leadership and strategy",
+      "items": 6594,
+      "words": 33150324,
+      "skills": [
+        {
+          "label": "Hapa Ecosystem Architecture",
+          "sharedItems": 0,
+          "evidenceCount": 1907
+        },
+        {
+          "label": "Protocol Design / Governance Loops",
+          "sharedItems": 0,
+          "evidenceCount": 1715
+        },
+        {
+          "label": "Local Runtime / DevOps",
+          "sharedItems": 0,
+          "evidenceCount": 1501
+        }
+      ]
+    },
+    {
+      "label": "technology",
+      "items": 5113,
+      "words": 31581318,
+      "skills": [
+        {
+          "label": "Media Pipeline / Video Production",
+          "sharedItems": 441,
+          "evidenceCount": 509
+        },
+        {
+          "label": "Media Studies / Cultural Pattern Analysis",
+          "sharedItems": 322,
+          "evidenceCount": 433
+        },
+        {
+          "label": "Game / Simulation Systems",
+          "sharedItems": 270,
+          "evidenceCount": 416
+        }
+      ]
+    },
+    {
+      "label": "economics and society",
+      "items": 5228,
+      "words": 30726827,
+      "skills": [
+        {
+          "label": "AI Conversation Mining",
+          "sharedItems": 0,
+          "evidenceCount": 702
+        },
+        {
+          "label": "Hapa Ecosystem Architecture",
+          "sharedItems": 0,
+          "evidenceCount": 508
+        },
+        {
+          "label": "Protocol Design / Governance Loops",
+          "sharedItems": 0,
+          "evidenceCount": 487
+        }
+      ]
+    },
+    {
+      "label": "spirituality and philosophy",
+      "items": 5165,
+      "words": 30111145,
+      "skills": [
+        {
+          "label": "AI Conversation Mining",
+          "sharedItems": 0,
+          "evidenceCount": 1071
+        },
+        {
+          "label": "Protocol Design / Governance Loops",
+          "sharedItems": 0,
+          "evidenceCount": 705
+        },
+        {
+          "label": "Context Engineering / Memory Packing",
+          "sharedItems": 0,
+          "evidenceCount": 704
+        }
+      ]
+    },
+    {
+      "label": "fantasy",
+      "items": 6190,
+      "words": 29836729,
+      "skills": [
+        {
+          "label": "AI Conversation Mining",
+          "sharedItems": 0,
+          "evidenceCount": 1226
+        },
+        {
+          "label": "Media Pipeline / Video Production",
+          "sharedItems": 1546,
+          "evidenceCount": 2429
+        },
+        {
+          "label": "Asset / Attachment Management",
+          "sharedItems": 1507,
+          "evidenceCount": 1834
+        }
+      ]
+    }
+  ],
+  "skillLinkMethod": "Top skills are existing Second Brain topic-to-skill links, ranked by shared source evidence; they are retrieval connections, not proficiency ratings."
+}

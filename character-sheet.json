@@ -1,0 +1,14 @@
+{
+  "name": "Hapa Character Sheet — Calder Foundation Projection",
+  "status": "public-safe derived snapshot; not a live employer or production metric feed",
+  "sourceWindow": {"generatedAt": "2026-06-03", "turns": 6106, "skills": 126, "skillFamilies": 10, "hapaNodes": 109, "capabilities": 218},
+  "modes": [
+    {"name":"Public Resume","purpose":"Curated professional claims and proof links."},
+    {"name":"Skill Codex","purpose":"Skill cards connected to evidence and related tools."},
+    {"name":"Proof Map","purpose":"Lineage from source material through turns, skills, nodes, and results."},
+    {"name":"Agent Dossier","purpose":"Redaction-safe context for collaborators."}
+  ],
+  "skillFamilies": ["Agent Systems","Knowledge Architecture","Data Engineering","Data Operations","Product Engineering","Integrity and Provenance","Search and Retrieval","Runtime and DevOps","Operator UX","Quality and Evaluation"],
+  "evidencePolicy":"The Character Sheet compiles private-source evidence into a curated projection. It does not expose private corpus contents, paths, credentials, or sensitive operational data. Retain its derived and dated status whenever using its counts or rankings.",
+  "publicSurface":"https://calderwong.github.io/hapa-node-atlas/nodes/character-sheet/index.html#presentation"
+}

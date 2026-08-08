@@ -1,0 +1,35 @@
+{
+  "name": "Living Resume Continuous Sharpening Projection",
+  "version": "1.0.0",
+  "updated": "2026-08-08",
+  "status": "documented update contract; human or authorized agent run required",
+  "purpose": "Keep the public Living Resume worth revisiting by turning newly completed Hapa work into source-checked skill, proof, portfolio, and discovery updates.",
+  "inputs": [
+    {"source": "Hapa Second Brain", "role": "new turns, source-linked knowledge, skill clusters, examples, and result lineage"},
+    {"source": "Hapa Quest Keeper", "role": "build inventory, board state, completed work, open priorities, and ownership"},
+    {"source": "Hapa node repositories", "role": "current app state, public links, artifacts, release evidence, and explicit maturity"},
+    {"source": "Human review", "role": "truth boundary, relevance, privacy, representative selection, and publishing approval"}
+  ],
+  "route": [
+    {"step": 1, "name": "Observe", "handoff": "Quest Keeper + Second Brain -> update candidate set", "question": "What changed since the prior projection?"},
+    {"step": 2, "name": "Triage", "handoff": "candidate set -> human/agent priority review", "question": "Which work most improves future capability, evidence quality, or reusable infrastructure per unit of human time and AI tokens?"},
+    {"step": 3, "name": "Compress", "handoff": "validated work -> skills, cards, and proof links", "question": "What repeatable judgment, pattern, contract, or artifact should survive the individual turn?"},
+    {"step": 4, "name": "Project", "handoff": "approved public-safe evidence -> Living Resume resources", "question": "What should a recruiter or agent be able to learn now that it could not learn on the previous visit?"},
+    {"step": 5, "name": "Sharpen", "handoff": "review feedback -> next update prompt", "question": "What proved useful, what was noise, and what source or process should improve next?"}
+  ],
+  "resourcePolicy": {
+    "humanTime": "Reserve for objective setting, high-stakes judgment, claim approval, privacy review, and exceptions.",
+    "aiTokens": "Spend on bounded retrieval, clustering, draft synthesis, link checking, and clearly scoped comparisons; do not spend them repeatedly reconstructing already-captured context.",
+    "triageRule": "Prefer work that compounds: reusable skills, durable cards, verified app foundations, evidence lineage, and process improvements that lower future discovery or integration cost."
+  },
+  "publicProjection": {
+    "include": ["new or materially improved public Hapa nodes", "verified skills or proof links", "freshness metadata", "role-relevant summaries", "explicit claim class"],
+    "exclude": ["private Second Brain contents", "unverified outcomes", "provider billing or reasoning-token claims", "sensitive operational details"],
+    "claimClasses": ["production", "prototype", "derived", "scenario"]
+  },
+  "revisitContract": {
+    "forRecruiters": "Re-check the updated date and change summary before treating this portfolio as static.",
+    "forAgents": "Compare the current discovery resources with a prior saved version; report material new evidence, changed maturity, unresolved questions, and the applicable claim class.",
+    "publication": "A human must approve public claims and source boundaries before publication."
+  }
+}

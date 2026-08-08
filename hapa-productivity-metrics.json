@@ -1,0 +1,27 @@
+{
+  "name": "Hapa Productivity Metrics Projection",
+  "readAt": "2026-08-08",
+  "source": "Local Hapa Second Brain ledger; Catalog may surface projections but is not the canonical owner.",
+  "metrics": {
+    "pairedHapaTurns": 12253,
+    "threads": 1422,
+    "turnCards": 12253,
+    "turnSkillClusters": 297,
+    "turnSkillExamples": 20136,
+    "hapaNodes": 167,
+    "nodeSkills": 334,
+    "capabilityBridges": 14706,
+    "turnResultLinks": 12147,
+    "turnsWithDerivedWork": 11260,
+    "promptCharacters": 13928466,
+    "responseCharacters": 78985092,
+    "estimatedTextTokens": 23228389
+  },
+  "interpretation": {
+    "turn": "A paired user-and-assistant conversation unit in the Hapa turn ledger.",
+    "skillCluster": "A derived recurring skill pattern; it is not a credential or employer rating.",
+    "resultLink": "A derived relationship between a turn and a result record, used for lineage navigation.",
+    "estimatedTextTokens": "A text-volume proxy calculated as total prompt and response characters divided by four. It is not a provider-reported, billable, cached, or reasoning-token total."
+  },
+  "sourceBoundary": "Metrics describe a local derived projection at a point in time. They do not prove public availability, customer usage, deployment maturity, or commercial outcomes."
+}

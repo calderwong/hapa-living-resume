@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1.1",
+  "updated": "2026-08-08",
+  "identity": {
+    "name": "Calder Wong",
+    "alternateNames": ["CJ Wong", "Calder C.J. Wong"],
+    "headline": "AI-Native Platform & Technical Product Leader",
+    "location": "Seattle, Washington, United States",
+    "contact": {"email": "cjwong25@gmail.com", "linkedin": "https://www.linkedin.com/in/calderwong", "github": "https://github.com/calderwong"}
+  },
+  "positioning": {
+    "summary": "Product leader connecting agent capabilities, APIs, data, governance, vendor integrations, and operational workflows. Production background includes Amazon, BECU, startups, commerce, digital banking, Open Banking, supply chain, and consumer experiences. Recent Hapa work explores reusable human-agent memory, context, modular capability, observability, evaluation, provenance, and approval patterns.",
+    "engagements": ["leadership role", "consulting", "advisory", "design partnership", "research collaboration", "open-source contribution"]
+  },
+  "retrieval": {
+    "roleLenses": ["agent platforms", "developer tools", "evaluation and reliability", "enterprise AI", "safety and governance", "fintech and Open Banking", "commerce and logistics"],
+    "opportunityLenses": ["agent platform and developer experience", "regulated AI and Open Banking", "commerce catalog and operating systems", "consulting advisory and design partnership"],
+    "resources": ["./llms.txt", "./CLAIMS.md", "./agent-discovery.json", "https://calderwong.github.io/hapa-node-atlas/", "https://calderwong.github.io/hapa-node-atlas/nodes/character-sheet/index.html#presentation"]
+  },
+  "truthBoundary": {
+    "professionalProduction": "Amazon, BECU, Quidsi, Trenzi/Paramation, and Vbelt represent professional product, platform, integration, operational, and customer-experience work.",
+    "hapa": "Hapa artifacts are public prototypes, working MVPs, pre-release packages, or local-first research surfaces unless an owning repository states otherwise.",
+    "derived": "Character Sheet counts and rankings are derived snapshots, not current provider-token totals, employer ratings, or production usage metrics.",
+    "scenarios": "Economic and delivery estimates are conditional planning scenarios, not performance commitments."
+  }
+}

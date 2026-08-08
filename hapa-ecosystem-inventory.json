@@ -1,0 +1,2522 @@
+{
+  "name": "Hapa Ecosystem Inventory",
+  "version": "1.0.0",
+  "updated": "2026-08-08",
+  "source": "Local Hapa Second Brain SQLite snapshot",
+  "boundary": "Public-safe inventory projection. It excludes private turn text, node descriptions, source paths, credentials, and runtime claims.",
+  "nodeCount": 167,
+  "nodeTypes": {
+    "cymatica_node": 10,
+    "existing_node": 67,
+    "hapa_node": 76,
+    "node_map": 4,
+    "proposed_node": 10
+  },
+  "nodes": [
+    {
+      "label": ".hapaDash",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 17,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 1,
+        "linkedExamples": 1,
+        "linkedTurnCards": 1,
+        "linkedSkillClusters": 1
+      }
+    },
+    {
+      "label": ".hapaLiTo",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": ".hapaVideo",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 13,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Consul Node Source Spec from ChatGPT Export",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Desktop Repository Demo Coverage",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 9,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Gemy Hapa Project Dragon",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 20,
+        "knowledgeBodies": 11,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 1509,
+        "linkedExamples": 1511,
+        "linkedTurnCards": 1509,
+        "linkedSkillClusters": 42
+      }
+    },
+    {
+      "label": "Hapa AC",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 12,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa AG \u2013 Electron AI + P2P Sandbox",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 11,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 243,
+        "linkedExamples": 243,
+        "linkedTurnCards": 243,
+        "linkedSkillClusters": 7
+      }
+    },
+    {
+      "label": "Hapa Agent Registry Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Aholo Viewer",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 13,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Anvil Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 18,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 420,
+        "linkedExamples": 420,
+        "linkedTurnCards": 420,
+        "linkedSkillClusters": 11
+      }
+    },
+    {
+      "label": "Hapa Avatar Builder",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Avatar Builder",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 17,
+        "knowledgeBodies": 11,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 2,
+        "linkedExamples": 2,
+        "linkedTurnCards": 2,
+        "linkedSkillClusters": 2
+      }
+    },
+    {
+      "label": "Hapa Avatar Dashboard",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 13,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Avatar Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 17,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Avatar Skill CMS",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Avatars - Pose Reference Sheets for 3D Generative AI",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 12,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Chat App",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 13,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Crypto Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Cu",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 4,
+        "knowledgeBodies": 2,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 7,
+        "linkedExamples": 7,
+        "linkedTurnCards": 7,
+        "linkedSkillClusters": 1
+      }
+    },
+    {
+      "label": "Hapa Cultivation Suite",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Dev Proto",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 17,
+        "knowledgeBodies": 11,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 1605,
+        "linkedExamples": 1607,
+        "linkedTurnCards": 1605,
+        "linkedSkillClusters": 41
+      }
+    },
+    {
+      "label": "Hapa Documentation Distribution",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 4,
+        "knowledgeBodies": 2,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 7,
+        "linkedExamples": 7,
+        "linkedTurnCards": 7,
+        "linkedSkillClusters": 1
+      }
+    },
+    {
+      "label": "Hapa Drama",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Exports Staging",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 4,
+        "knowledgeBodies": 2,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Forge Studio Source Digest",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 9,
+        "knowledgeBodies": 8,
+        "cards": 2
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Game Generation Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Game Generation Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Janus World Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 80,
+        "linkedExamples": 80,
+        "linkedTurnCards": 80,
+        "linkedSkillClusters": 4
+      }
+    },
+    {
+      "label": "Hapa Keys Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Krea 2 Identity Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Lance Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 18,
+        "knowledgeBodies": 11,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Live App",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 13,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Living Comic Book",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 12,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa LLaDA Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Lore Intro Video",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 13,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Lore Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 17,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 577,
+        "linkedExamples": 577,
+        "linkedTurnCards": 577,
+        "linkedSkillClusters": 4
+      }
+    },
+    {
+      "label": "Hapa LuminaStem Station",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Maintenance Console",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 13,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Memvid Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 577,
+        "linkedExamples": 577,
+        "linkedTurnCards": 577,
+        "linkedSkillClusters": 4
+      }
+    },
+    {
+      "label": "Hapa Mesh2Motion",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Music Viz",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Open Tasks Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 11,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Opportunity Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 1,
+        "linkedExamples": 1,
+        "linkedTurnCards": 1,
+        "linkedSkillClusters": 1
+      }
+    },
+    {
+      "label": "Hapa Overcard",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Proto Dev Alpha \u2014 O H Hi M",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 13,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Quest Keeper",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 81,
+        "linkedExamples": 81,
+        "linkedTurnCards": 81,
+        "linkedSkillClusters": 5
+      }
+    },
+    {
+      "label": "Hapa Red Team",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 18,
+        "knowledgeBodies": 11,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 1843,
+        "linkedExamples": 1845,
+        "linkedTurnCards": 1843,
+        "linkedSkillClusters": 39
+      }
+    },
+    {
+      "label": "Hapa Skills App",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 13,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Song Registry",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 176,
+        "linkedExamples": 176,
+        "linkedTurnCards": 176,
+        "linkedSkillClusters": 3
+      }
+    },
+    {
+      "label": "Hapa Space Burstdebuginformation Donotship",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Space Ui.App.Backup 20260623 140119",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Spaceship Desktop Hijack (Project Janus)",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 13,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Spec Scaffold",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Sprite Development",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Subscriber App",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Tarot EDH \u2014 Hapa Arcana Wargame (Phaser V0 Prototype)",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Tarot Stargate Reference",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Telemetry Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 17,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Video Alpha Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 12,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Video Generation Node (Phase 1 Scaffold)",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Wiki Growth Agent",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 17,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 178,
+        "linkedExamples": 178,
+        "linkedTurnCards": 178,
+        "linkedSkillClusters": 5
+      }
+    },
+    {
+      "label": "Hapa Wiki Viewer",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 1,
+        "linkedExamples": 1,
+        "linkedTurnCards": 1,
+        "linkedSkillClusters": 1
+      }
+    },
+    {
+      "label": "Hapa Windows Media Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Wisdom Studio",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-design-system",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 10,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 80,
+        "linkedExamples": 80,
+        "linkedTurnCards": 80,
+        "linkedSkillClusters": 4
+      }
+    },
+    {
+      "label": "hapa-neon-avatar-sorter",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 13,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa-sprite",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-trellis",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 9,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "HapaGemy Node Source Digest",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 9,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Help Fun D Hapa Plz",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 4,
+        "knowledgeBodies": 2,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 7,
+        "linkedExamples": 7,
+        "linkedTurnCards": 7,
+        "linkedSkillClusters": 1
+      }
+    },
+    {
+      "label": "Live Context Surfacing Node",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 5,
+        "cards": 3
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "MassiveHistory chunks",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 11,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Notebook Llm Hapa Mod",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Second Pass Recompilation \u201cClimb\u201d As Hapa\u2019S Moral Learning Layer",
+      "classification": "hapa_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": ".hapaCatalog",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 22,
+        "knowledgeBodies": 11,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 1842,
+        "linkedExamples": 1844,
+        "linkedTurnCards": 1842,
+        "linkedSkillClusters": 38
+      }
+    },
+    {
+      "label": "Bard-node.rtfd",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "CardAppPrototype Node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 6,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "ComfyUI Local Install",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Consul Node Proto",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 17,
+        "knowledgeBodies": 6,
+        "cards": 2
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "gemy-hapa-project-dragon",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 19,
+        "knowledgeBodies": 6,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Avatar Dashboard",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 6,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Avatar Skill CMS",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Desktop Bundle Aliases",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Drama",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 6,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Language \u00b7 Meaning Cards",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 216,
+        "linkedExamples": 216,
+        "linkedTurnCards": 216,
+        "linkedSkillClusters": 11
+      }
+    },
+    {
+      "label": "Hapa Live App",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 4,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Living Comic Book",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 6,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Music Viz",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 10,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Neon Avatar Sorter",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa OmniVoice Calder Twin",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Opportunity Node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Red Team",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 21,
+        "knowledgeBodies": 6,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Subscriber App",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 4,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Tarot EDH",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Trellis",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 6,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Video",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 6,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Video Alpha Node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Wiki Growth Agent",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Windows Media Node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Wisdom Studio",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Worldbuilding Wiki",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 9,
+        "knowledgeBodies": 5,
+        "cards": 2
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-ac",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-agent-registry-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 17,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-aholo-viewer",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 18,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-anvil-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 5,
+        "cards": 208
+      },
+      "lineageSignals": {
+        "linkedTurns": 1101,
+        "linkedExamples": 1101,
+        "linkedTurnCards": 1101,
+        "linkedSkillClusters": 10
+      }
+    },
+    {
+      "label": "hapa-avatar-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 5,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-chat-app",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-crypto-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-cu",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-dev-campfire-me-starter.rtfd",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-dev-proto",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 24,
+        "knowledgeBodies": 6,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-janus-world-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 3,
+        "cards": 84
+      },
+      "lineageSignals": {
+        "linkedTurns": 7,
+        "linkedExamples": 7,
+        "linkedTurnCards": 7,
+        "linkedSkillClusters": 1
+      }
+    },
+    {
+      "label": "hapa-keys-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 9,
+        "knowledgeBodies": 3,
+        "cards": 640
+      },
+      "lineageSignals": {
+        "linkedTurns": 18,
+        "linkedExamples": 18,
+        "linkedTurnCards": 18,
+        "linkedSkillClusters": 8
+      }
+    },
+    {
+      "label": "hapa-lance-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-llada-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 4,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-lore-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 19,
+        "knowledgeBodies": 5,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-ltx-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-luminastem-station",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 18,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-media-snapshot-12-25-2025",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-memvid-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 10,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-mlx-station",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 10,
+        "knowledgeBodies": 8,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-node-space",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 6,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-og",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 5,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-open-tasks-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-overcard",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 17,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-overwind-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-proto-dev-alpha-oh-hi-m",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 12,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-skills-app",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-song-registry",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 6,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-spaceship-desktop-hijack",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 17,
+        "knowledgeBodies": 5,
+        "cards": 1479
+      },
+      "lineageSignals": {
+        "linkedTurns": 1101,
+        "linkedExamples": 1101,
+        "linkedTurnCards": 1101,
+        "linkedSkillClusters": 10
+      }
+    },
+    {
+      "label": "hapa-spec-scaffold",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 12,
+        "knowledgeBodies": 5,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-sprite",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 18,
+        "knowledgeBodies": 6,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-telemetry-node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 4,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-wiki-viewer",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 5,
+        "cards": 2
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "help-fun-d-hapa-plz",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 15,
+        "knowledgeBodies": 4,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hermes",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 20,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Notebook LLM Hapa Mod",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 20,
+        "knowledgeBodies": 7,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Overwatch Knowledgebase Node",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Project Cymatica_Vision",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 19,
+        "knowledgeBodies": 7,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "pulse-node-proto-dev",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 16,
+        "knowledgeBodies": 5,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Red-Seed-Consul-Nodes-Merge-SilconGameEngine-Blue-Architect.rtfd",
+      "classification": "existing_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "docs",
+      "classification": "cymatica_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-game-generation-node",
+      "classification": "cymatica_node",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-trellis-mac-3d-generation",
+      "classification": "cymatica_node",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "hapa-video-generation-node",
+      "classification": "cymatica_node",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 6,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "mtplx",
+      "classification": "cymatica_node",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Project Cymatica Vision",
+      "classification": "cymatica_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "resources",
+      "classification": "cymatica_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "scripts",
+      "classification": "cymatica_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "src",
+      "classification": "cymatica_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "tests",
+      "classification": "cymatica_node",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Campfire Ritual Node",
+      "classification": "proposed_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 4,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Card Library Node",
+      "classification": "proposed_node",
+      "knowledgeSignals": {
+        "topics": 9,
+        "knowledgeBodies": 6,
+        "cards": 690
+      },
+      "lineageSignals": {
+        "linkedTurns": 1101,
+        "linkedExamples": 1101,
+        "linkedTurnCards": 1101,
+        "linkedSkillClusters": 10
+      }
+    },
+    {
+      "label": "hapa-overwind-node (historical proposed location)",
+      "classification": "proposed_node",
+      "knowledgeSignals": {
+        "topics": 10,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Media Generation Node",
+      "classification": "proposed_node",
+      "knowledgeSignals": {
+        "topics": 9,
+        "knowledgeBodies": 5,
+        "cards": 565
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Name-Card Identity Node",
+      "classification": "proposed_node",
+      "knowledgeSignals": {
+        "topics": 9,
+        "knowledgeBodies": 7,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Overwatch Node",
+      "classification": "proposed_node",
+      "knowledgeSignals": {
+        "topics": 9,
+        "knowledgeBodies": 7,
+        "cards": 916
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Phamiliars Companion Node",
+      "classification": "proposed_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 4,
+        "cards": 747
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Roll The Tapes Node",
+      "classification": "proposed_node",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 5,
+        "cards": 1013
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Silicon Nexus Node",
+      "classification": "proposed_node",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 4,
+        "cards": 758
+      },
+      "lineageSignals": {
+        "linkedTurns": 1101,
+        "linkedExamples": 1101,
+        "linkedTurnCards": 1101,
+        "linkedSkillClusters": 10
+      }
+    },
+    {
+      "label": "Wormhole Ingestion Node",
+      "classification": "proposed_node",
+      "knowledgeSignals": {
+        "topics": 7,
+        "knowledgeBodies": 4,
+        "cards": 468
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Hapa Node Registry",
+      "classification": "node_map",
+      "knowledgeSignals": {
+        "topics": 14,
+        "knowledgeBodies": 10,
+        "cards": 1
+      },
+      "lineageSignals": {
+        "linkedTurns": 1,
+        "linkedExamples": 1,
+        "linkedTurnCards": 1,
+        "linkedSkillClusters": 1
+      }
+    },
+    {
+      "label": "Node Capability Matrix",
+      "classification": "node_map",
+      "knowledgeSignals": {
+        "topics": 5,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Node Graph v2",
+      "classification": "node_map",
+      "knowledgeSignals": {
+        "topics": 8,
+        "knowledgeBodies": 5,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    },
+    {
+      "label": "Node Registry Mesh",
+      "classification": "node_map",
+      "knowledgeSignals": {
+        "topics": 6,
+        "knowledgeBodies": 3,
+        "cards": 0
+      },
+      "lineageSignals": {
+        "linkedTurns": 0,
+        "linkedExamples": 0,
+        "linkedTurnCards": 0,
+        "linkedSkillClusters": 0
+      }
+    }
+  ]
+}

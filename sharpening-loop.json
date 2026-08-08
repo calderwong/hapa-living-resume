@@ -1,0 +1,15 @@
+{
+  "name": "Hapa Continuous Sharpening Loop",
+  "source": "Hapa Worldbuilding Wiki — Continuous Sharpening Loop",
+  "operatingStance": "Use what serves the objective. Drop what does not. Add lived context, Hapa priorities, downstream benefit, and new relationships back into the system.",
+  "stages": [
+    {"id":"turns","label":"Human-agent turns","purpose":"Capture intent, response, and reusable work context."},
+    {"id":"knowledge","label":"Second Brain retrieval","purpose":"Join turns with items, chunks, wiki maps, knowledge bodies, skills, and Hapa artifact evidence."},
+    {"id":"skills","label":"Skill formation","purpose":"Promote recurring applied patterns into evidence-backed skills and connected capabilities."},
+    {"id":"apps","label":"Hapa nodes and apps","purpose":"Express reusable skill through focused products, contracts, interfaces, and operator surfaces."},
+    {"id":"reuse","label":"Leverage","purpose":"Reuse cards, modules, evidence, and prior decisions so the next work starts further ahead."},
+    {"id":"feedback","label":"Sharpening ledger","purpose":"Record fit, benefit, continuing benefit, improvements, artifacts, and new connections for the next cycle."}
+  ],
+  "guardrails": ["A query must carry purpose and objective.", "Usefulness requires feedback; do not silently pile on open runs.", "Derived links support navigation but do not prove deployment, adoption, or savings.", "Humans retain approval over publication, sensitive data, and irreversible actions."],
+  "metricsResource": "./hapa-productivity-metrics.json"
+}
