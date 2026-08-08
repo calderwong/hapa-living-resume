@@ -9,6 +9,7 @@
 - Machine-readable discovery index: ./agent-discovery.json
 - Build Journal index: ./build-journal.json
 - Hapa architecture timeline: ./hapa-architecture-timeline.json
+- Complete named Hapa node timeline: ./hapa-node-timeline.json
 - Timeline turn and skill associations: ./hapa-app-turn-skill-layer.json
 - Full Hapa ecosystem inventory: ./hapa-ecosystem-inventory.json
 - Per-node architect review projection: ./hapa-ecosystem-architect-projection.json
