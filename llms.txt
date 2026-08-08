@@ -46,6 +46,7 @@ Historical Hapa builds can be evaluated through a repeatable interviewer-and-arc
 - Economic and delivery numbers: conditional planning scenarios, not promises.
 - Knowledge Dashboard: public-safe aggregate counts only. It excludes titles, raw transcripts, private notes, source paths, URLs, and personal reading or watch lists. Topic totals overlap and must not be added together; topic-to-skill links are retrieval connections, not proficiency ratings.
 - Public Media Catalog: user-approved titles, creators, media classification, and canonical public links for books, audiobooks, Amazon/Prime records, and YouTube videos. It excludes raw transcripts, descriptions, notes, ratings, timestamps, and private source data. A catalog record does not prove completion, endorsement, or full viewing.
+- Live Hapa GitHub Portfolio Inventory: `./github-portfolio.json` reconciles the public, non-fork Hapa repositories currently visible in Calder Wong's GitHub account. A repository is a public source surface, not evidence of production maturity, adoption, or a currently running deployment.
 
 ## Contact
 

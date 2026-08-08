@@ -805,5 +805,36 @@ Portfolio: ${DATA.profile.identity.nodeAtlas}`));
   const glow=$('#cursor-glow'); addEventListener('pointermove',e=>{glow.style.left=e.clientX+'px';glow.style.top=e.clientY+'px'},{passive:true});
 })();
 </script>
+<script>
+(() => {
+  const grid = document.querySelector('#portfolio .project-grid');
+  const heading = document.querySelector('#portfolio .section-title p');
+  if (!grid) return;
+  const esc = value => String(value || '').replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[character]));
+  fetch('./github-portfolio.json').then(response => response.ok ? response.json() : Promise.reject()).then(inventory => {
+    const existing = new Set([...grid.querySelectorAll('[id^="project-"]')].map(card => card.id.replace('project-','')));
+    const projects = inventory.projects.filter(project => !existing.has(project.id));
+    if (heading) heading.textContent = `Hapa Protocols & Applied Prototypes · ${grid.children.length + projects.length} public portfolio surfaces`;
+    const marker = document.createElement('aside');
+    marker.className = 'portfolio-inventory-note';
+    marker.innerHTML = `<strong>Complete public GitHub inventory</strong><span>${projects.length} additional Hapa repositories reconciled from the live public account list.</span><a href="./github-portfolio.json">Read the machine-readable inventory</a>`;
+    grid.before(marker);
+    const start = grid.children.length;
+    projects.forEach((project, offset) => {
+      const card = document.createElement('article');
+      const lenses = [...new Set([...(project.lenses || []), 'all'])].join(' ');
+      card.className = 'project-card searchable lens-item github-inventory-project';
+      card.id = `project-${project.id}`;
+      card.dataset.lenses = lenses;
+      card.dataset.search = `${project.name} ${project.type} ${project.stage} ${project.desc} ${lenses}`;
+      card.innerHTML = `<div class="project-glow" aria-hidden="true"></div><div class="project-head"><span class="project-index">${String(start + offset + 1).padStart(2,'0')}</span><span class="proof-kind prototype">GITHUB</span></div><p class="eyebrow">${esc(project.type)}</p><h3>${esc(project.name)}</h3><p>${esc(project.desc)}</p><div class="project-proof">Public source surface · evidence of repository presence only</div><div class="project-footer"><span class="stage">${esc(project.stage)}</span><div class="project-links"><a href="${esc(project.demo)}" target="_blank" rel="noopener noreferrer">Explore <svg viewBox='0 0 24 24' aria-hidden='true'><path d='M5 12h14M13 6l6 6-6 6'/></svg></a><a href="${esc(project.source)}" target="_blank" rel="noopener noreferrer" aria-label="Open ${esc(project.name)} source">Source</a></div></div>`;
+      grid.append(card);
+    });
+  }).catch(() => {});
+})();
+</script>
+<style>
+.portfolio-inventory-note{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:0 0 14px;padding:12px 14px;border:1px solid rgba(94,231,255,.28);background:rgba(6,22,39,.7);font-size:12px;color:var(--soft)}.portfolio-inventory-note strong{color:var(--ink);font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase}.portfolio-inventory-note a{margin-left:auto;color:#5ee7ff;font-weight:800;text-decoration:none}.portfolio-inventory-note a:hover{text-decoration:underline}
+</style>
 </body>
 </html>
