@@ -6,6 +6,7 @@
 
 - Profile: ./profile.json
 - Claim and evidence rules: ./CLAIMS.md
+- Machine-readable public claim index: ./claims.json
 - Machine-readable discovery index: ./agent-discovery.json
 - Build Journal index: ./build-journal.json
 - Hapa architecture timeline: ./hapa-architecture-timeline.json

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0",
+  "updated": "2026-08-09",
+  "purpose": "Public-safe claim index for human and agent discovery. A linked source establishes only the scope stated for that source; use confirmBeforeQuoting when a detail is not independently public.",
+  "claims": [
+    {
+      "id": "professional-platform-leadership",
+      "class": "professional_production",
+      "statement": "Calder Wong has professional product and platform experience spanning Amazon, BECU, startups, commerce, digital banking, Open Banking, supply chain, and consumer product.",
+      "sources": [{"label": "Professional profile", "url": "https://www.linkedin.com/in/calderwong", "scope": "Public career identity and role history"}],
+      "confirmBeforeQuoting": false
+    },
+    {
+      "id": "amazon-cost-savings",
+      "class": "professional_production",
+      "statement": "A supply-chain capability is described in the Living Resume as being credited with approximately $1B in cost savings.",
+      "sources": [{"label": "Living Resume professional record", "url": "https://calderwong.github.io/hapa-living-resume/#experience", "scope": "Calder's first-person professional portfolio statement"}],
+      "confirmBeforeQuoting": true,
+      "confirmationReason": "The outcome is not linked to an independent public employer source in this index."
+    },
+    {
+      "id": "becu-open-banking",
+      "class": "professional_production",
+      "statement": "The Living Resume describes BECU product strategy work involving digital banking, Open Banking, data sharing, security, vendor integrations, and FDX participation.",
+      "sources": [{"label": "Living Resume professional record", "url": "https://calderwong.github.io/hapa-living-resume/#experience", "scope": "Calder's first-person professional portfolio statement"}],
+      "confirmBeforeQuoting": true,
+      "confirmationReason": "Use a role-specific confirmation for details beyond the public portfolio statement."
+    },
+    {
+      "id": "trenzi-startup",
+      "class": "professional_production",
+      "statement": "Trenzi is presented as a founder-led social-commerce startup and software-studio experience.",
+      "sources": [{"label": "GeekWire startup profile", "url": "https://www.geekwire.com/2016/trenzi/", "scope": "Independent press coverage"}, {"label": "Living Resume professional record", "url": "https://calderwong.github.io/hapa-living-resume/#experience", "scope": "Calder's first-person professional portfolio statement"}],
+      "confirmBeforeQuoting": false
+    },
+    {
+      "id": "hapa-prototype-ecosystem",
+      "class": "public_prototype",
+      "statement": "Hapa is presented as a public prototype ecosystem for human-agent collaboration, not as a claim of production deployment or customer adoption.",
+      "sources": [{"label": "Hapa Node Atlas", "url": "https://calderwong.github.io/hapa-node-atlas/", "scope": "Public prototype surface"}, {"label": "GitHub portfolio", "url": "https://github.com/calderwong", "scope": "Public source repositories"}],
+      "confirmBeforeQuoting": false
+    },
+    {
+      "id": "cardapp-prototype",
+      "class": "public_prototype",
+      "statement": "CardAppPrototype is an AI-assisted React and Vite prototype case study with explicit limits on production, adoption, and performance claims.",
+      "sources": [{"label": "CardAppPrototype case study", "url": "https://calderwong.github.io/hapa-living-resume/case-studies/cardapp-prototype/", "scope": "Public case study and boundary statement"}, {"label": "Source repository", "url": "https://github.com/calderwong/CardAppPrototype", "scope": "Public source surface"}],
+      "confirmBeforeQuoting": false
+    },
+    {
+      "id": "character-sheet-counts",
+      "class": "derived_snapshot",
+      "statement": "Character Sheet counts, skill ranks, nodes, turns, and bridges are dated derived snapshots used for navigation and provenance.",
+      "sources": [{"label": "Living Resume claim ledger", "url": "https://calderwong.github.io/hapa-living-resume/CLAIMS.md", "scope": "Public evidence boundary"}],
+      "confirmBeforeQuoting": true,
+      "confirmationReason": "Derived counts are not employer ratings, token totals, or production-usage metrics."
+    }
+  ]
+}

@@ -9,6 +9,7 @@
     "structuredProfile": "./profile.json",
     "agentGuide": "./llms.txt",
     "claimLedger": "./CLAIMS.md",
+    "claimIndex": "./claims.json",
     "hapaFoundationMap": "./hapa-node-map.json",
     "productivityMetrics": "./hapa-productivity-metrics.json",
     "livingResumeUpdateLoop": "./living-resume-update-loop.json",
