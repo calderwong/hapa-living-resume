@@ -10,6 +10,7 @@
     "agentGuide": "./llms.txt",
     "claimLedger": "./CLAIMS.md",
     "claimIndex": "./claims.json",
+    "publicBoundaries": "./PUBLIC-BOUNDARIES.md",
     "hapaExplainer": "./hapa-explainer.md",
     "opportunityLenses": "./opportunity-lenses.json",
     "retrievalTaxonomy": "./retrieval-taxonomy.json",
