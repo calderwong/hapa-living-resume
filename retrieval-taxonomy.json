@@ -1,0 +1,44 @@
+{
+  "name": "Calder Wong Living Resume Retrieval Taxonomy",
+  "version": "1.0.0",
+  "updated": "2026-08-09",
+  "purpose": "Map common opportunity queries to relevant experience, public proof, and the limits that should travel with each match.",
+  "usage": "Match intent before keywords. Return only the proof links and claim classes relevant to the query; do not infer production maturity from a Hapa prototype.",
+  "terms": [
+    {
+      "id": "agent-platforms",
+      "labels": ["agent platforms", "AI agents", "context engineering", "memory", "orchestration", "developer tools", "API", "CLI"],
+      "experience": ["AI-native platform and technical product leadership", "Hapa prototype ecosystem"],
+      "proof": ["./hapa-explainer.md", "./hapa-node-map.json", "./claims.json#hapa-prototype-ecosystem"],
+      "caveat": "Hapa is a public prototype and research surface, not a claim of production agent deployment."
+    },
+    {
+      "id": "evaluation-governance",
+      "labels": ["AI evaluation", "reliability", "observability", "provenance", "AI safety", "governance", "human approval"],
+      "experience": ["Hapa verification paths and bounded-authority patterns", "regulated platform product work"],
+      "proof": ["./hapa-explainer.md", "./living-resume-update-loop.json", "./claims.json#becu-open-banking"],
+      "caveat": "Use source classes and confirmation flags before quoting outcomes or maturity."
+    },
+    {
+      "id": "fintech-open-banking",
+      "labels": ["fintech", "digital banking", "Open Banking", "FDX", "data sharing", "regulated AI", "security"],
+      "experience": ["BECU digital banking and Open Banking work", "product and integration leadership"],
+      "proof": ["./claims.json#becu-open-banking", "./profile.json"],
+      "caveat": "Confirm organization-specific outcomes directly before using them in an external brief."
+    },
+    {
+      "id": "commerce-operations",
+      "labels": ["commerce", "marketplace", "catalog", "inventory", "logistics", "supply chain", "digital goods", "creator platforms"],
+      "experience": ["Amazon and Quidsi commerce operations", "Trenzi and CardApp product prototypes"],
+      "proof": ["./claims.json#amazon-cost-savings", "./claims.json#trenzi-startup", "./case-studies/cardapp-prototype/"],
+      "caveat": "CardApp is a prototype case study; it is not evidence of a deployed commercial product."
+    },
+    {
+      "id": "product-leadership",
+      "labels": ["technical product leader", "platform strategy", "enterprise workflows", "product strategy", "consulting", "advisory", "design partnership"],
+      "experience": ["Cross-functional platform and product leadership", "consulting and design-partnership engagement modes"],
+      "proof": ["./profile.json", "./opportunity-lenses.json", "./claims.json#professional-platform-leadership"],
+      "caveat": "Engagement modes indicate areas for conversation, not a promise of current availability or partnership."
+    }
+  ]
+}

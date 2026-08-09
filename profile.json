@@ -15,7 +15,7 @@
   "retrieval": {
     "roleLenses": ["agent platforms", "developer tools", "evaluation and reliability", "enterprise AI", "safety and governance", "fintech and Open Banking", "commerce and logistics"],
     "opportunityLenses": ["agent platform and developer experience", "regulated AI and Open Banking", "commerce catalog and operating systems", "consulting advisory and design partnership"],
-    "resources": ["./llms.txt", "./CLAIMS.md", "./claims.json", "./agent-discovery.json", "https://calderwong.github.io/hapa-node-atlas/", "https://calderwong.github.io/hapa-node-atlas/nodes/character-sheet/index.html#presentation"]
+    "resources": ["./llms.txt", "./CLAIMS.md", "./claims.json", "./agent-discovery.json", "./retrieval-taxonomy.json", "https://calderwong.github.io/hapa-node-atlas/", "https://calderwong.github.io/hapa-node-atlas/nodes/character-sheet/index.html#presentation"]
   },
   "truthBoundary": {
     "professionalProduction": "Amazon, BECU, Quidsi, Trenzi/Paramation, and Vbelt represent professional product, platform, integration, operational, and customer-experience work.",

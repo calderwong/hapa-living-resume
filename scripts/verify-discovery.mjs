@@ -8,6 +8,7 @@ const requiredFiles = [
   'sitemap.xml',
   'profile.json',
   'claims.json',
+  'retrieval-taxonomy.json',
   'agent-discovery.json',
   'llms.txt',
   'assets/living-resume-social-preview.png',
@@ -16,19 +17,21 @@ const requiredFiles = [
 
 for (const file of requiredFiles) await access(file, constants.R_OK);
 
-const [html, robots, sitemap, profile, claims, discovery, caseStudy] = await Promise.all([
+const [html, robots, sitemap, profile, claims, discovery, taxonomy, caseStudy] = await Promise.all([
   readFile('index.html', 'utf8'),
   readFile('robots.txt', 'utf8'),
   readFile('sitemap.xml', 'utf8'),
   readFile('profile.json', 'utf8'),
   readFile('claims.json', 'utf8'),
   readFile('agent-discovery.json', 'utf8'),
+  readFile('retrieval-taxonomy.json', 'utf8'),
   readFile('case-studies/cardapp-prototype/index.html', 'utf8'),
 ]);
 
 JSON.parse(profile);
 const claimIndex = JSON.parse(claims);
 JSON.parse(discovery);
+const retrievalTaxonomy = JSON.parse(taxonomy);
 
 const checks = [
   ['profile canonical', html.includes(`rel="canonical" href="${site}"`)],
@@ -38,6 +41,8 @@ const checks = [
   ['agent discovery link', html.includes('title="Agent discovery index" href="./agent-discovery.json"')],
   ['claim index link', html.includes('title="Public claim index" href="./claims.json"')],
   ['claim index has sources', Array.isArray(claimIndex.claims) && claimIndex.claims.every((claim) => claim.sources?.length)],
+  ['retrieval taxonomy is linked', JSON.parse(discovery).entrypoints.retrievalTaxonomy === './retrieval-taxonomy.json' && JSON.parse(profile).retrieval.resources.includes('./retrieval-taxonomy.json')],
+  ['retrieval taxonomy has bounded proof mappings', Array.isArray(retrievalTaxonomy.terms) && retrievalTaxonomy.terms.every((term) => term.labels?.length && term.proof?.length && term.caveat)],
   ['robots sitemap', robots.includes(`Sitemap: ${site}sitemap.xml`)],
   ['profile sitemap entry', sitemap.includes(`<loc>${site}</loc>`)],
   ['case-study sitemap entry', sitemap.includes(`<loc>${site}case-studies/cardapp-prototype/</loc>`)],
