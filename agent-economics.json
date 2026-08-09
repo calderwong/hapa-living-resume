@@ -1,0 +1,18 @@
+{
+  "name": "Hapa Build-versus-Integrate Guide",
+  "version": "1.0.0",
+  "updated": "2026-08-09",
+  "status": "decision framework; not a pricing sheet or performance forecast",
+  "reusableFoundations": ["source-aware context and provenance", "shared UI/API/CLI contracts", "append-only evidence and reversible state", "evaluation and observability hooks", "explicit human approval and bounded authority"],
+  "decisionCriteria": {
+    "integrateWhen": ["a stable external system already owns the capability", "its security, support, and data boundaries meet the mandate", "the integration can preserve auditable inputs, outputs, and authority"],
+    "buildWhen": ["the workflow’s decision model or evidence boundary is differentiating", "existing tools cannot meet the required authority, provenance, or operability", "a reusable contract would reduce repeated bespoke work"],
+    "validateFirst": ["identify the accountable human decision maker", "test data-access and security assumptions", "define an acceptance evaluation and rollback path", "confirm what production evidence exists versus prototype evidence"]
+  },
+  "scenarioModel": {
+    "assumptions": ["reuse is valuable only after a real fit assessment", "integration effort depends on data contracts, identity, security review, and change management", "human review remains required for material decisions"],
+    "nonClaims": ["No time, cost, adoption, reliability, or return-on-investment outcome is guaranteed.", "Hapa prototype artifacts do not by themselves prove production readiness or compatibility."]
+  },
+  "authorityBoundary": "Agents can retrieve, compare, propose, and prepare evidence. Humans approve scope, data access, decisions, external actions, and any production release.",
+  "claimBoundary": "Professional production experience, Hapa prototypes, derived snapshots, and planning scenarios must remain separately labeled."
+}

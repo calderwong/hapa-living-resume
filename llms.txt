@@ -9,6 +9,8 @@
 - Machine-readable public claim index: ./claims.json
 - Public claim, privacy, and freshness rules: ./PUBLIC-BOUNDARIES.md
 - Release notes and supported discovery behavior: ./RELEASE-NOTES.md
+- Build-versus-integrate decision guide: ./agent-economics.json
+- Source-cited opportunity briefing packets: ./briefing-packets.json
 - Plain-language Hapa explainer: ./hapa-explainer.md
 - Machine-readable discovery index: ./agent-discovery.json
 - Query-to-proof retrieval taxonomy: ./retrieval-taxonomy.json

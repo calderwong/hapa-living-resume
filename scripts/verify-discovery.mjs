@@ -10,6 +10,8 @@ const requiredFiles = [
   'claims.json',
   'PUBLIC-BOUNDARIES.md',
   'RELEASE-NOTES.md',
+  'agent-economics.json',
+  'briefing-packets.json',
   'retrieval-taxonomy.json',
   'agent-discovery.json',
   'llms.txt',
@@ -19,7 +21,7 @@ const requiredFiles = [
 
 for (const file of requiredFiles) await access(file, constants.R_OK);
 
-const [html, robots, sitemap, profile, claims, publicBoundaries, releaseNotes, discovery, taxonomy, caseStudy] = await Promise.all([
+const [html, robots, sitemap, profile, claims, publicBoundaries, releaseNotes, economics, briefings, discovery, taxonomy, caseStudy] = await Promise.all([
   readFile('index.html', 'utf8'),
   readFile('robots.txt', 'utf8'),
   readFile('sitemap.xml', 'utf8'),
@@ -27,6 +29,8 @@ const [html, robots, sitemap, profile, claims, publicBoundaries, releaseNotes, d
   readFile('claims.json', 'utf8'),
   readFile('PUBLIC-BOUNDARIES.md', 'utf8'),
   readFile('RELEASE-NOTES.md', 'utf8'),
+  readFile('agent-economics.json', 'utf8'),
+  readFile('briefing-packets.json', 'utf8'),
   readFile('agent-discovery.json', 'utf8'),
   readFile('retrieval-taxonomy.json', 'utf8'),
   readFile('case-studies/cardapp-prototype/index.html', 'utf8'),
@@ -36,6 +40,8 @@ JSON.parse(profile);
 const claimIndex = JSON.parse(claims);
 const discoveryIndex = JSON.parse(discovery);
 const retrievalTaxonomy = JSON.parse(taxonomy);
+const economicGuide = JSON.parse(economics);
+const briefingPackets = JSON.parse(briefings);
 const jsonLd = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)?.[1] || 'null');
 
 const checks = [
@@ -48,6 +54,8 @@ const checks = [
   ['claim index has sources', Array.isArray(claimIndex.claims) && claimIndex.claims.every((claim) => claim.sources?.length)],
   ['public-boundaries resource is linked', discoveryIndex.entrypoints.publicBoundaries === './PUBLIC-BOUNDARIES.md' && publicBoundaries.toLowerCase().includes('local filesystem paths')],
   ['release note describes supported behavior', discoveryIndex.entrypoints.releaseNotes === './RELEASE-NOTES.md' && releaseNotes.includes('does not expose a live A2A or MCP endpoint')],
+  ['economic guidance has bounded authority', discoveryIndex.entrypoints.economicGuide === './agent-economics.json' && economicGuide.authorityBoundary.includes('Humans approve') && economicGuide.scenarioModel.nonClaims.length >= 2],
+  ['briefing packets cover opportunity contexts', discoveryIndex.entrypoints.briefingPackets === './briefing-packets.json' && briefingPackets.packets.length >= 4 && briefingPackets.packets.every((packet) => packet.productionProof?.length && packet.hapaProof?.length && packet.boundary && packet.questions?.length)],
   ['no local paths in public discovery resources', ![profile, claims, discovery, taxonomy, publicBoundaries].some((resource) => resource.includes('/Users/'))],
   ['profile structured data parses as a profile', jsonLd?.['@type'] === 'ProfilePage' && jsonLd?.mainEntity?.['@type'] === 'Person'],
   ['retrieval taxonomy is linked', discoveryIndex.entrypoints.retrievalTaxonomy === './retrieval-taxonomy.json' && JSON.parse(profile).retrieval.resources.includes('./retrieval-taxonomy.json')],

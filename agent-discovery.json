@@ -12,6 +12,8 @@
     "claimIndex": "./claims.json",
     "publicBoundaries": "./PUBLIC-BOUNDARIES.md",
     "releaseNotes": "./RELEASE-NOTES.md",
+    "economicGuide": "./agent-economics.json",
+    "briefingPackets": "./briefing-packets.json",
     "hapaExplainer": "./hapa-explainer.md",
     "opportunityLenses": "./opportunity-lenses.json",
     "retrievalTaxonomy": "./retrieval-taxonomy.json",
