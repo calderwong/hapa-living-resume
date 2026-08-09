@@ -11,6 +11,7 @@
     "claimLedger": "./CLAIMS.md",
     "claimIndex": "./claims.json",
     "hapaExplainer": "./hapa-explainer.md",
+    "opportunityLenses": "./opportunity-lenses.json",
     "hapaFoundationMap": "./hapa-node-map.json",
     "productivityMetrics": "./hapa-productivity-metrics.json",
     "livingResumeUpdateLoop": "./living-resume-update-loop.json",
