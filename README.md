@@ -30,3 +30,7 @@ This is a public-safe projection, not a data dump. It deliberately distinguishes
 - [Live demo](https://calderwong.github.io/hapa-living-resume/)
 - [GitHub profile](https://github.com/calderwong)
 - [Hapa Node Atlas](https://calderwong.github.io/hapa-node-atlas/)
+
+## Verify discovery assets
+
+Before publishing, run `node scripts/verify-discovery.mjs`. It checks the canonical URL, crawler files, social-preview metadata, agent-discovery entry point, structured resources, and the CardAppPrototype case-study route.
