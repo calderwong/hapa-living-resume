@@ -8,6 +8,7 @@
 - Claim and evidence rules: ./CLAIMS.md
 - Machine-readable public claim index: ./claims.json
 - Public claim, privacy, and freshness rules: ./PUBLIC-BOUNDARIES.md
+- Release notes and supported discovery behavior: ./RELEASE-NOTES.md
 - Plain-language Hapa explainer: ./hapa-explainer.md
 - Machine-readable discovery index: ./agent-discovery.json
 - Query-to-proof retrieval taxonomy: ./retrieval-taxonomy.json

@@ -11,6 +11,7 @@
     "claimLedger": "./CLAIMS.md",
     "claimIndex": "./claims.json",
     "publicBoundaries": "./PUBLIC-BOUNDARIES.md",
+    "releaseNotes": "./RELEASE-NOTES.md",
     "hapaExplainer": "./hapa-explainer.md",
     "opportunityLenses": "./opportunity-lenses.json",
     "retrievalTaxonomy": "./retrieval-taxonomy.json",

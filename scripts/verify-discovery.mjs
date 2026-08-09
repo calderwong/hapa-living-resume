@@ -9,6 +9,7 @@ const requiredFiles = [
   'profile.json',
   'claims.json',
   'PUBLIC-BOUNDARIES.md',
+  'RELEASE-NOTES.md',
   'retrieval-taxonomy.json',
   'agent-discovery.json',
   'llms.txt',
@@ -18,13 +19,14 @@ const requiredFiles = [
 
 for (const file of requiredFiles) await access(file, constants.R_OK);
 
-const [html, robots, sitemap, profile, claims, publicBoundaries, discovery, taxonomy, caseStudy] = await Promise.all([
+const [html, robots, sitemap, profile, claims, publicBoundaries, releaseNotes, discovery, taxonomy, caseStudy] = await Promise.all([
   readFile('index.html', 'utf8'),
   readFile('robots.txt', 'utf8'),
   readFile('sitemap.xml', 'utf8'),
   readFile('profile.json', 'utf8'),
   readFile('claims.json', 'utf8'),
   readFile('PUBLIC-BOUNDARIES.md', 'utf8'),
+  readFile('RELEASE-NOTES.md', 'utf8'),
   readFile('agent-discovery.json', 'utf8'),
   readFile('retrieval-taxonomy.json', 'utf8'),
   readFile('case-studies/cardapp-prototype/index.html', 'utf8'),
@@ -32,8 +34,9 @@ const [html, robots, sitemap, profile, claims, publicBoundaries, discovery, taxo
 
 JSON.parse(profile);
 const claimIndex = JSON.parse(claims);
-JSON.parse(discovery);
+const discoveryIndex = JSON.parse(discovery);
 const retrievalTaxonomy = JSON.parse(taxonomy);
+const jsonLd = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)?.[1] || 'null');
 
 const checks = [
   ['profile canonical', html.includes(`rel="canonical" href="${site}"`)],
@@ -43,9 +46,11 @@ const checks = [
   ['agent discovery link', html.includes('title="Agent discovery index" href="./agent-discovery.json"')],
   ['claim index link', html.includes('title="Public claim index" href="./claims.json"')],
   ['claim index has sources', Array.isArray(claimIndex.claims) && claimIndex.claims.every((claim) => claim.sources?.length)],
-  ['public-boundaries resource is linked', JSON.parse(discovery).entrypoints.publicBoundaries === './PUBLIC-BOUNDARIES.md' && publicBoundaries.toLowerCase().includes('local filesystem paths')],
+  ['public-boundaries resource is linked', discoveryIndex.entrypoints.publicBoundaries === './PUBLIC-BOUNDARIES.md' && publicBoundaries.toLowerCase().includes('local filesystem paths')],
+  ['release note describes supported behavior', discoveryIndex.entrypoints.releaseNotes === './RELEASE-NOTES.md' && releaseNotes.includes('does not expose a live A2A or MCP endpoint')],
   ['no local paths in public discovery resources', ![profile, claims, discovery, taxonomy, publicBoundaries].some((resource) => resource.includes('/Users/'))],
-  ['retrieval taxonomy is linked', JSON.parse(discovery).entrypoints.retrievalTaxonomy === './retrieval-taxonomy.json' && JSON.parse(profile).retrieval.resources.includes('./retrieval-taxonomy.json')],
+  ['profile structured data parses as a profile', jsonLd?.['@type'] === 'ProfilePage' && jsonLd?.mainEntity?.['@type'] === 'Person'],
+  ['retrieval taxonomy is linked', discoveryIndex.entrypoints.retrievalTaxonomy === './retrieval-taxonomy.json' && JSON.parse(profile).retrieval.resources.includes('./retrieval-taxonomy.json')],
   ['retrieval taxonomy has bounded proof mappings', Array.isArray(retrievalTaxonomy.terms) && retrievalTaxonomy.terms.every((term) => term.labels?.length && term.proof?.length && term.caveat)],
   ['robots sitemap', robots.includes(`Sitemap: ${site}sitemap.xml`)],
   ['profile sitemap entry', sitemap.includes(`<loc>${site}</loc>`)],
